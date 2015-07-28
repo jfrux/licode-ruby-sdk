@@ -23,5 +23,5 @@ Gem::Specification.new do |spec|
 
   spec.add_dependency "addressable", "~> 2.3"
   spec.add_runtime_dependency 'httparty', '~> 0.13', '>= 0.13.1'
-  spec.add_runtime_dependency 'activesupport', '~> 2.0'
+  spec.add_runtime_dependency 'activesupport'
 end
