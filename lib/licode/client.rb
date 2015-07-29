@@ -138,7 +138,7 @@ module Licode
 
     private
     def mauth_header(opts = {})
-      header = 'MAuth realm=http://marte3.dit.upm.es,mauth_signature_method=HMAC_SHA1'
+      header = "MAuth realm=#{@service_url},mauth_signature_method=HMAC_SHA1"
       timestamp = (Time.now.to_f * 1000).to_i
       cnounce = rand(99999)
 
